@@ -97,7 +97,6 @@ To exit the environment later:
 ``` bash
 deactivate
 ```
----
 
 - 🧠 Step 3 — Verify Installation
 
@@ -105,6 +104,8 @@ To make sure everything is installed properly:
 ``` bash
 py -3.11 -m pip list
 ```
+---
+
 ## 🚀 How to Run the Application
 - 🪄 Run the GUI App
 
