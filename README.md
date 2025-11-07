@@ -28,6 +28,21 @@ This project combines **deep learning**, **audio signal processing**, and **GUI 
 
 ---
 
+
+## 🎶 Dataset Information
+
+This project uses the **GTZAN Music Genre Dataset**, a popular benchmark dataset for music classification.  
+It contains **1000 audio tracks**, each 30 seconds long, across **10 genres**:
+
+`Blues, Classical, Country, Disco, HipHop, Jazz, Metal, Pop, Reggae, Rock`
+
+You can download the dataset from Kaggle here:  
+🔗 [GTZAN Music Genre Dataset on Kaggle](https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification)
+
+After downloading, place the dataset in your preferred folder and update the path in your Jupyter Notebook if you want to retrain the model.
+
+---
+
 ## ⚙️ Installation Guide
 
 ### 🧩 Prerequisites
@@ -82,6 +97,8 @@ To exit the environment later:
 ``` bash
 deactivate
 ```
+---
+
 - 🧠 Step 3 — Verify Installation
 
 To make sure everything is installed properly:
@@ -102,3 +119,5 @@ From there:
 - Click Browse to select a music file (.wav or .mp3).
 - The app will extract audio features.
 - Click Predict Genre to see the predicted result.
+
+---
