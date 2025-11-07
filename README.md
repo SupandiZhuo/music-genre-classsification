@@ -81,9 +81,7 @@ Easiest for users who just want to try the app.
 ``` bash
 py -3.10 -m pip install -r requirements.txt
 ```
-``` bash
-py -3.10 app.py
-```
+
 Option 2 — Recommended Setup (Virtual Environment)
 Keeps dependencies isolated and avoids version conflicts.
 
